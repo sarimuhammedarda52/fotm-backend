@@ -43,6 +43,7 @@ OPERATOR_VERILERI = {
     "yakup.t": {"password": "fotmyakup", "name": "Yakup Turan", "photo": "11.png"},
     "emel.d": {"password": "fotmemel", "name": "Emel Dalga", "photo": "11.png"},
     "semanur.k": {"password": "fotmsema", "name": "Semanur Kuvan", "photo": "11.png"},
+    "nisanur.e": {"password": "fotmnisa", "name": "Nisa Nur Erdem", "photo": "11.png"},
     
 }
 
