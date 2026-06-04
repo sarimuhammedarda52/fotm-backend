@@ -18,7 +18,6 @@ class GirisModel(BaseModel):
     username: str
     password: str
 
-# Güncel Kullanıcı Veritabanı
 OPERATOR_VERILERI = {
     "mehmet.c": {"password": "fotmmehmet", "name": "Mehmet Ceran", "photo": "mehmetceran.jpg"},
     "ilker.k": {"password": "fotmilker", "name": "Ilker Kurtini", "photo": "ilkerkurtini.jpg"},
@@ -27,6 +26,24 @@ OPERATOR_VERILERI = {
     "mustafa.d": {"password": "fotmmustafa", "name": "Mustafa Can Demir", "photo": "mustafacandemir.jpg"},
     "kariyer.k": {"password": "1234", "name": "Kariyer", "photo": "1.png"},
     "serkan.m": {"password": "123456", "name": "Serkan Mutlu", "photo": "11.png"},
+    "huseyin.c": {"password": "fotmhuseyin", "name": "Hüseyin Çiftçi", "photo": "11.png"},
+    "rumeysa.d": {"password": "fotmrumeysa", "name": "Rümeysa Doğancal", "photo": "11.png"},
+    "mehmet.t": {"password": "fotmmehmett", "name": "Mehmet Torun", "photo": "11.png"},
+    "memin.y": {"password": "fotmemin", "name": "Muhammed Emin Yıldırım", "photo": "11.png"},
+    "anil.h": {"password": "fotmanil", "name": "Anıl Harmanlı", "photo": "11.png"},
+    "mert.b": {"password": "fotmmert", "name": "Mert Başak", "photo": "11.png"},
+    "ahmetcan.f": {"password": "fotmahmet", "name": "Ahmet Can Fındık", "photo": "11.png"},
+    "ebrar.o": {"password": "fotmebrar", "name": "Ebrar Oturak", "photo": "11.png"},
+    "cinar.a": {"password": "fotmcinar", "name": "Çınar Aktaş", "photo": "11.png"},
+    "rabia.t": {"password": "fotmrabia", "name": "Rabia Tepe", "photo": "11.png"},
+    "medine.a": {"password": "fotmmedine", "name": "Medine Akkaş", "photo": "11.png"},
+    "ecrin.y": {"password": "fotmecrin", "name": "Ecrin İlkim Yılmaz", "photo": "11.png"},
+    "ayberk.b": {"password": "fotmayberk", "name": "Ayberk Batır", "photo": "11.png"},
+    "menes.b": {"password": "fotmenes", "name": "Muhammed Enes Bıyık", "photo": "11.png"},
+    "yakup.t": {"password": "fotmyakup", "name": "Yakup Turan", "photo": "11.png"},
+    "emel.d": {"password": "fotmemel", "name": "Emel Dalga", "photo": "11.png"},
+    "semanur.k": {"password": "fotmsema", "name": "Semanur Kuvam", "photo": "11.png"},
+    
 }
 
 @app.get("/")
